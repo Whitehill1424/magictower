@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eea59af9e80cdd4ab287ecef16ab7ea, type: 3}
+  m_Name: TheKing
+  m_EditorClassIdentifier: 
+  objectName: theking
+  sprite: {fileID: 7456178469227482525, guid: 879b7d2e0de3f384f89a763401e1a825, type: 3}
+  attack: 999
+  dfense: 999
+  agile: 0
+  hp: 999
+  enemyType: 2
