@@ -447,6 +447,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8800503576537486481, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486481, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486481, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486481, guid: f9197acc4706ae142a609d9104a24969, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -497,6 +509,34 @@ PrefabInstance:
     - target: {fileID: 8800503576537486485, guid: f9197acc4706ae142a609d9104a24969, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486486, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486486, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486486, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486487, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486487, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486487, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800503576537486487, guid: f9197acc4706ae142a609d9104a24969, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9197acc4706ae142a609d9104a24969, type: 3}

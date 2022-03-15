@@ -6,11 +6,11 @@ public class L2event : MonoBehaviour
 {
     public GameObject dialog;
     public GameObject eventblock;
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            Time.timeScale = 0;
             dialog.SetActive(true);
         }
     }
@@ -25,7 +25,6 @@ public class L2event : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-            Time.timeScale = 1;
             dialog.SetActive(false);
             eventblock.SetActive(false);
         }

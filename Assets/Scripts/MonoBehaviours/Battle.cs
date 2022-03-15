@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Battle : MonoBehaviour
 {
     public GameObject act;
-    public GameObject block;
     public playerData me;
     public Enemy enemy;
     Animator animator;
@@ -40,7 +39,6 @@ public class Battle : MonoBehaviour
     private void disappear()
     {
         act.SetActive(false);
-        block.SetActive(false);
     }
     private bool battlenum()
     {

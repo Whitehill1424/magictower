@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class playerData : MonoBehaviour
 {
+    public GameObject Father;
     public HitPoints hitPoints;
     public Attack attack;
     public Dfense dfense;
@@ -23,6 +24,8 @@ public class playerData : MonoBehaviour
     public Text yellowkeyText;
     public Text bluekeyText;
     public Text redkeyText;
+
+    public Text floortext;
     void Start()
     {
         
@@ -41,5 +44,6 @@ public class playerData : MonoBehaviour
             bluekeyText.text = "BUk: " + bluekey.value;
             redkeyText.text = "RDk: " + redkey.value;
         }
+        if (Father.transform.Find("Floor2").gameObject.activeSelf == true) floortext.text = "µÚ2²ã " ;
     }
 }

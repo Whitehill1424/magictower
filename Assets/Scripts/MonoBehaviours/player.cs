@@ -45,6 +45,9 @@ public class player : Character
                     case Item.ItemType.yellowkey:
                         shouldDisappear = AdjustYWkey(hitObjects.quantity);
                         break;
+                    case Item.ItemType.bluekey:
+                        shouldDisappear = AdjustBUkey(hitObjects.quantity);
+                        break;
                     default:
                         break;
                 }
@@ -106,15 +109,25 @@ public class player : Character
         }
         return false;
     }
-
- /*   public void SaveData()
+    public bool AdjustBUkey(int amount)
     {
-        Global.Instance.startingHitPoints = hitpoints.value;
-        Global.Instance.startingAttack = attack.value;
-        Global.Instance.startingDfense = dfense.value;
-        Global.Instance.startingAgile = agile.value;
-        Global.Instance.startingYellowkey = yellowkey.value;
-        Global.Instance.startingBluekey = bluekey.value;
-        Global.Instance.startingRedkey = redkey.value;
-    }*/
+        if (bluekey.value < 100)
+        {
+            bluekey.value = bluekey.value + amount;
+            print("Adjust by" + amount + ". New value: " + bluekey.value);
+            return true;
+        }
+        return false;
+    }
+
+    /*   public void SaveData()
+       {
+           Global.Instance.startingHitPoints = hitpoints.value;
+           Global.Instance.startingAttack = attack.value;
+           Global.Instance.startingDfense = dfense.value;
+           Global.Instance.startingAgile = agile.value;
+           Global.Instance.startingYellowkey = yellowkey.value;
+           Global.Instance.startingBluekey = bluekey.value;
+           Global.Instance.startingRedkey = redkey.value;
+       }*/
 }
